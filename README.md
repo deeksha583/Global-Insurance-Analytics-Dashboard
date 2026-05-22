@@ -22,7 +22,7 @@ An interactive Power BI dashboard designed to analyze and compare the global ins
 | **Insurance Sample Dataset** | Primary — insurance metrics by country and year |
 | **Global Financial Development Database** | Secondary — income classification per country |
 
-📥 **Download Datasets:** [Google Drive Link](https://drive.google.com/drive/folders/1aut4O2py6NOnN6pdEVUYpMiaB0_KMer7)
+
 
 > Both datasets are integrated using Power BI's data modeling and relationship features.
 
