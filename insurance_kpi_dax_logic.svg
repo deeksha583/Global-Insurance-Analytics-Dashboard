@@ -55,26 +55,3 @@
 <line x1="380" y1="206" x2="460" y2="268" stroke="#BA7517" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
 </svg>
 
-How It Works — 3 Layers
-Layer 1 — Category Selection
-The user picks a metric from the Category Parameter:
-Life Insurance Share  |  Market Share  |  Penetration
-Reinsurance Ratio     |  Retention Ratio
-The measure reads whichever category is selected and pulls the correct column from the dataset automatically.
-
-Layer 2 — Current vs Prior Year Value
-daxVAR Curr  = [Selected Category Value]
-VAR Prior = CALCULATE([Selected Category Value],
-              SAMEPERIODLASTYEAR('Date'[Date]))
-
-Curr — the metric value for the selected year
-Prior — the same metric value for the previous year, fetched using SAMEPERIODLASTYEAR
-
-
-Layer 3 — Growth % Calculation
-daxGrowth % = DIVIDE(Curr - Prior, Prior)
-Divides the change by the prior year value to give a percentage growth rate. DIVIDE() is used instead of / to safely handle division-by-zero cases — returning BLANK() instead of an error.
-
-Growth Indicator Output
-The Growth % then drives a second measure that classifies each result into one of three visual signals:
-Growth %IndicatorShape> 0Positive▲ Green= 0No Change— Grey< 0Negative▼ Red
