@@ -196,11 +196,6 @@ raw data into clear, actionable intelligence for global expansion strategy.
 
 ---
 
-## 👤 Author
-
-**[Your Name]**
-📧 your.email@example.com
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile) · [GitHub](https://github.com/your-username)
 
 ---
 *Built with Power BI · DAX · Power Query*
