@@ -90,29 +90,6 @@ Dashboard Title =
   & " | FY " & FORMAT([Selected Year], "0")
 ```
 
----
-
-## 📸 Screenshots
-
-### Data Flow Architecture
-![Data Flow](screenshots/insurance_flow_diagram.png)
-
-### KPI Summary & Bar Chart
-![KPI Chart](screenshots/insurance_kpi_bar_chart.png)
-
-### Geographic Map
-![Map View](screenshots/map_view.png)
-
-### KPI Table with Growth Indicators
-![KPI Table](screenshots/kpi_table.png)
-
-### Trend Line
-![Trend Line](screenshots/trend_line.png)
-
-### Full Dashboard
-![Full Dashboard](screenshots/full_dashboard.png)
-
----
 
 ## ⚙️ Tools & Techniques
 
