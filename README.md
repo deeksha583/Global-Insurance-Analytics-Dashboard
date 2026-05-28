@@ -15,6 +15,8 @@ for international market expansion by visualising life insurance share, market s
 penetration, reinsurance ratio, and retention ratio — segmented dynamically by year,
 category, and income group.
 
+> **Dataset →** [Google Drive](https://drive.google.com/drive/folders/1aut4O2py6NOnN6pdEVUYpMiaB0_KMer7)
+
 ---
 
 ## 🎯 Objectives
@@ -33,6 +35,8 @@ category, and income group.
 |---|---|---|
 | **Insurance Sample Dataset** | Primary | Insurance metrics per country per year |
 | **Global Financial Development DB** | Secondary | World Bank income classification |
+
+📥 **Download:** [Google Drive](https://drive.google.com/drive/folders/1aut4O2py6NOnN6pdEVUYpMiaB0_KMer7)
 
 ---
 
@@ -90,6 +94,29 @@ Dashboard Title =
   & " | FY " & FORMAT([Selected Year], "0")
 ```
 
+---
+
+## 📸 Screenshots
+
+### Data Flow Architecture
+![Data Flow](screenshots/insurance_flow_diagram.png)
+
+### KPI Summary & Bar Chart
+![KPI Chart](screenshots/insurance_kpi_bar_chart.png)
+
+### Geographic Map
+![Map View](screenshots/map_view.png)
+
+### KPI Table with Growth Indicators
+![KPI Table](screenshots/kpi_table.png)
+
+### Trend Line
+![Trend Line](screenshots/trend_line.png)
+
+### Full Dashboard
+![Full Dashboard](screenshots/full_dashboard.png)
+
+---
 
 ## ⚙️ Tools & Techniques
 
@@ -143,6 +170,23 @@ insurance-dashboard/
 └── README.md                               # Project documentation
 ```
 
+---
+
+## 🔗 How to Use
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/insurance-dashboard.git
+   cd insurance-dashboard
+   ```
+2. Download datasets from [Google Drive](https://drive.google.com/drive/folders/1aut4O2py6NOnN6pdEVUYpMiaB0_KMer7) → place in `/data`
+3. Open `Insurance_Dashboard.pbix` in Power BI Desktop
+4. Refresh data sources — update file paths in Power Query if needed
+5. Use **Year** & **Category** slicers to explore metrics
+6. Apply **Income Group** filter for segmented country analysis
+
+---
+
 ## ✅ Conclusion
 
 This Power BI dashboard provides a comprehensive, interactive platform for comparing
@@ -150,6 +194,13 @@ the global insurance landscape across income groups, regions, and years. By inte
 two datasets and exposing five key metrics through dynamic parameters, it transforms
 raw data into clear, actionable intelligence for global expansion strategy.
 
+---
+
+## 👤 Author
+
+**[Your Name]**
+📧 your.email@example.com
+🔗 [LinkedIn](https://linkedin.com/in/yourprofile) · [GitHub](https://github.com/your-username)
 
 ---
 *Built with Power BI · DAX · Power Query*
