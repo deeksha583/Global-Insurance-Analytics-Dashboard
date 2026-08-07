@@ -15,7 +15,6 @@ for international market expansion by visualising life insurance share, market s
 penetration, reinsurance ratio, and retention ratio — segmented dynamically by year,
 category, and income group.
 
-> **Dataset →** [Google Drive](https://drive.google.com/drive/folders/1aut4O2py6NOnN6pdEVUYpMiaB0_KMer7)
 
 ---
 
@@ -36,7 +35,6 @@ category, and income group.
 | **Insurance Sample Dataset** | Primary | Insurance metrics per country per year |
 | **Global Financial Development DB** | Secondary | World Bank income classification |
 
-📥 **Download:** [Google Drive](https://drive.google.com/drive/folders/1aut4O2py6NOnN6pdEVUYpMiaB0_KMer7)
 
 ---
 
